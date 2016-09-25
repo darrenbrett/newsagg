@@ -13,6 +13,7 @@ import { HackerNewsAPIService } from './hackernews-api.service';
 import { ItemCommentsComponent } from './itemcomments/itemcomments.component';
 import { CommentTreeComponent } from './comment-tree/comment-tree.component';
 import { CommentComponent } from './comment/comment.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CommentComponent } from './comment/comment.component';
     ItemComponent,
     ItemCommentsComponent,
     CommentTreeComponent,
-    CommentComponent
+    CommentComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,

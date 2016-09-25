@@ -14,7 +14,7 @@ export class StoriesComponent implements OnInit {
   typeSub: any;
   pageSub: any;
   items;
-  storiesType;
+  storiesType: any;
   pageNum: number;
   listStart: number;
 
